@@ -1,0 +1,20 @@
+{
+    "name": "revo-video/revo-video",
+    "description": "This plugin helps you connect your store to Revo Video",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "RevoVideo\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Revo Video"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "curl/curl": "*"
+    }
+}

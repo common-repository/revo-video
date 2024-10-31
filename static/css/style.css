@@ -1,0 +1,150 @@
+.revovideo-contailer {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.revovideo-header {
+    width: 954px;
+    height: 64px;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    color: var(--p-text, #212b36);
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.revovideo-child {
+    width: 954px;
+    min-height: 140px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: flex-end;
+}
+
+.revovideo-child-exception:nth-child(2) {
+    border-top: none;
+    margin-top: 1.5rem;
+}
+
+.revovideo-left {
+    width: 304.67px;
+    min-height: 120px;
+}
+
+.revovideo-sub-title {
+    width: 284.67px;
+    min-height: 24px;
+    color: var(--p-text, #212b36);
+    font-weight: 600;
+    line-height: 2.4rem;
+    font-size: 16px;
+}
+
+.revovideo-paragraph {
+    width: 284.67px;
+    min-height: 40px;
+    color: var(--p-text-subdued, #637381);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.revovideo-right {
+    width: 609.33px;
+    min-height: 120px;
+}
+
+.revovideo-sub-contailer {
+    width: 609.33px;
+    min-height: 76px;
+    border-radius: 7px;
+    padding: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+    box-shadow: 0 0 0 1px rgb(63 63 68 / 5%), 0 1px 3px 0 rgb(63 63 68 / 15%);
+    outline: 0.1rem solid transparent;
+}
+
+.revovideo-sub-contailer-lauchapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revovideo-sub-contailer-lauchapp p {
+    width: 490px;
+    /* padding: 5px; */
+}
+
+.revovideo-btn {
+    --p-button-color: var(--p-action-primary);
+    --p-button-text: var(--p-text-on-primary);
+    --p-button-color-hover: var(--p-action-primary-hovered);
+    --p-button-color-active: var(--p-action-primary-pressed);
+    --p-button-color-depressed: var(--p-action-primary-depressed);
+    display: block;
+    box-sizing: border-box;
+    border-color: #3f4eae;
+    box-shadow: inset 0 1px 0 0 #6774c8, 0 1px 0 0 rgb(22 29 37 / 5%), 0 0 0 0 transparent;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.7rem;
+    min-width: 100px;
+    margin: 0;
+    /* padding: 0.7rem 1.6rem; */
+    border: 0.1rem solid #c4cdd5;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #3f4eae;
+    border-radius: 7px;
+}
+
+.revovideo-btn:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.revovideo-btn:focus {
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 
+.revovideo-ul {
+    padding-left: 15px;
+    padding-bottom: -20px;
+}
+*/
+
+/* 
+.revovideo-li {
+    margin-top: 50px;
+} 
+*/
+
+.revo-video-disable_btn {
+    background-color: gray;
+    cursor: default;
+}
+
+.revo-video-disable_btn:hover {
+    cursor: default;
+}
